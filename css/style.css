@@ -83,7 +83,7 @@ ul{
     list-style-type: none;
 }
 
-li{
+.menu li{
     padding: 0px 15px;
     display: inline-block;
 }
@@ -182,7 +182,7 @@ li a{
 
 .foto{
     width: 600px;
-    height: 700px;
+    height: 500px;
     
 }
 
@@ -193,7 +193,7 @@ li a{
 .testo{
     
     width: 500px;
-    height: 700px;
+    height: 500px;
     vertical-align: bottom;
     padding-top: 30px;
     padding-left: 140px;
@@ -278,4 +278,90 @@ text-align: center;
 
 .dark{
     background-color: #22272a;
+}
+
+.lingua{
+    width: 300px;
+}
+
+footer h1{
+    color: #7289da;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer span{
+    color: #fff;
+}
+.bandiera{
+    width: 30px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.bandiera img{
+    width: 100%;
+}
+
+.prodotto{
+    margin-left: 150px;
+}
+
+.colonna{
+    margin-left: 60px;
+}
+
+.social{
+    color: #fff;
+    margin: 10px;
+}
+
+.box.dark li{
+    margin: 15px 0px;
+    color: #fff;
+}
+
+footer .box-1{
+    padding-bottom: 30px;
+    border-bottom: 3px solid #7289da;
+}
+
+.registrati{
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.logo-fine{
+    width:150px;
+    line-height: 70px;
+}
+
+.register a{
+    
+    background-color: #7289da;
+    border: 10px solid #7289da;
+    border-radius: 40px;
+   padding: 4px 15px;
+    text-align: center;
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.wave{
+    width: 100%;
+    height: 100px;
+    vertical-align: bottom;
+   
+}
+
+.wave-inverse{
+    width: 100%;
+    height: 100px;
+    
+    transform: rotate(180deg);
 }
